@@ -7,7 +7,7 @@ const tourSchema = new mongoose.Schema({
         required: [true, "name required"],
         unique: true
     },
-    durations : {
+    duration : {
         type: Number,
         required: [true,"duration required"]
     },
